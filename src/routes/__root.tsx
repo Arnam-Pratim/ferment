@@ -72,6 +72,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Ferment — Considered objects for daily life" },
       { name: "description", content: "A small, curated shop of beautifully made everyday goods." },
       { property: "og:type", content: "website" },
+      { property: "og:title", content: "Ferment — Considered objects for daily life" },
+      { name: "twitter:title", content: "Ferment — Considered objects for daily life" },
+      { property: "og:description", content: "A small, curated shop of beautifully made everyday goods." },
+      { name: "twitter:description", content: "A small, curated shop of beautifully made everyday goods." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/54ec527c-1461-4cb4-b203-a2837d418d6f/id-preview-b338a9f2--a23c2768-28c3-4579-82e8-35d3db091088.lovable.app-1780731228102.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/54ec527c-1461-4cb4-b203-a2837d418d6f/id-preview-b338a9f2--a23c2768-28c3-4579-82e8-35d3db091088.lovable.app-1780731228102.png" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
